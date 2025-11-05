@@ -14,8 +14,8 @@ export const Navbar = () => {
     ];
 
     return (
-        <nav className="bg-[#0F0F0F] shadow-md">
-            <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="bg-[#12121220] backdrop-blur-md shadow-md fixed w-full z-50">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     {/* Logo/Brand Section */}
                     <div className="shrink-0 flex items-center">
@@ -25,7 +25,7 @@ export const Navbar = () => {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden lg:flex lg:items-center lg:space-x-8">
+                    <div className="hidden z-50 lg:flex lg:items-center lg:space-x-8">
                         {navigation.map((item) => (
                             <Link
                                 key={item.name}
@@ -82,7 +82,7 @@ export const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
+            <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} bg-[#12121280] backdrop-blur-md`}>
                 <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
                         <Link
