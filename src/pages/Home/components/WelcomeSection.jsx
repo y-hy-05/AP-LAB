@@ -11,21 +11,25 @@ export const WelcomeSection = () => {
             {/* Background Blurs */}
             <div className="absolute inset-0 opacity-30">
                 <div
-                    className="absolute top-20 right-10 w-96 h-96 rounded-full blur-3xl"
+                    className="absolute top-[10%] right-[5%] w-[30vw] h-[30vw] max-w-[600px] max-h-[600px] rounded-full blur-3xl"
                     style={{ backgroundColor: "#1E5C8C" }}
                 ></div>
                 <div
-                    className="absolute bottom-20 left-10 w-72 h-72 rounded-full blur-3xl"
+                    className="absolute bottom-[10%] left-[5%] w-[25vw] h-[25vw] max-w-[500px] max-h-[500px] rounded-full blur-3xl"
                     style={{ backgroundColor: "#DFA53B" }}
                 ></div>
             </div>
 
             {/* Content */}
-            <div className="relative z-10 container mx-auto px-6 py-20 text-center max-w-4xl">
-                <div className="flex flex-col items-center space-y-10">
-                    <img className='w-[60vw] md:flex hidden' src={APLAb} alt="" />
+            <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 py-12 sm:py-16 lg:py-20 text-center">
+                <div className="flex flex-col items-center space-y-8 sm:space-y-10 max-w-360 mx-auto">
+                    <img 
+                        className='w-[60vw] md:w-[45vw] lg:w-[35vw] xl:w-[25vw] 2xl:w-[20vw] max-w-[400px] md:flex hidden' 
+                        src={APLAb} 
+                        alt="APLAB Logo" 
+                    />
                     <h1
-                        className="text-4xl md:text-7xl font-bold mb-6 leading-tight"
+                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight max-w-[1400px] mx-auto"
                         style={{ color: "#FFFFFF" }}
                     >
 
@@ -34,14 +38,14 @@ export const WelcomeSection = () => {
                 </div>
 
                 <p
-                    className="text-xl md:text-2xl mb-8 leading-relaxed"
+                    className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl mb-8 sm:mb-10 lg:mb-12 leading-relaxed max-w-[1000px] mx-auto"
                     style={{ color: "#B3B3B3" }}
                 >
                     Coaching et génération de leads pour commerciaux ambitieux.
                 </p>
 
                 {/* Buttons */}
-                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center max-w-[800px] mx-auto">
                     <button
                         className="w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-bold uppercase tracking-wider rounded-lg flex items-center justify-center gap-2 bg-[#DFA53B] text-[#121212] hover:bg-[#2E7BB5] hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
                     >

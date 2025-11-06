@@ -81,7 +81,7 @@ export const Stats = () => {
                         >
                             <div className="mb-4">
                                 <span 
-                                    className="stat-counter inline-block text-5xl sm:text-6xl font-bold bg-gradient-to-r from-[#DFA53B] to-[#1E5C8C] bg-clip-text text-transparent"
+                                    className="stat-counter inline-block text-5xl sm:text-6xl font-bold bg-linear-to-r from-[#DFA53B] to-[#1E5C8C] bg-clip-text text-transparent"
                                     data-value={stat.value}
                                     data-suffix={stat.suffix}
                                 >
