@@ -146,7 +146,8 @@ export const Support = () => {
                     >
                         <div className="absolute inset-0 bg-linear-to-br from-[#DFA53B]/20 to-[#1E5C8C]/20 z-10" />
                         <img
-                            src="/src/assets/images/support.jpg"
+                            // src="/src/assets/images/support.jpg"
+                            src="https://www.aplab.fr/wp-content/uploads/go-x/u/ccb18f32-b8b7-44e7-b835-1bb6cb838ebd/l250,t0,w1500,h1500/image-640x640.jpg"
                             alt="Support AP LAB"
                             className="w-full h-full object-cover"
                         />
