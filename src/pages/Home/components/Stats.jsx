@@ -4,7 +4,7 @@ export const Stats = () => {
     const stats = [
         {
             value: 2000,
-            suffix: 'k',
+            suffix: '',
             label: 'Leads fournis',
             prefix: ''
         },

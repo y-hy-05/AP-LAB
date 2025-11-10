@@ -1,10 +1,13 @@
 import React from 'react';
+import { ApLab } from './Components/ApLab';
+import { MatchMaker } from './Components/MatchMaker';
 
 export const About = () => {
     return (
-        <div>
-            <h1 className='bg-white'>about</h1>
-        </div>
+        <>
+            <ApLab />
+            <MatchMaker/>
+        </>
     );
 };
 
