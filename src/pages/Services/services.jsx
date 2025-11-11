@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Target, Brain, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import bellabes from "../../../src/assets/images/bellabes.png"
+import coaching from "../../../src/assets/images/coaching.png"
+import support from "../../../src/assets/images/support.jpg"
 
 export const Services = () => {
     const containerVariants = {
@@ -42,8 +45,7 @@ export const Services = () => {
             cta: "Trouve ta moitié",
             icon: Target,
             link: "/services/bellabes",
-            // image: "/src/assets/images/bellabes.png"
-            image: "https://www.aplab.fr/wp-content/uploads/go-x/u/854ad2d4-10c4-4dc5-85f8-da2bce74ca7a/l0,t0,w1024,h1024/image-640x640.png"
+            image: bellabes
         },
         {
             title: "Coaching stratégique",
@@ -56,8 +58,7 @@ export const Services = () => {
             cta: "Refond tout ton système de pensée",
             icon: Brain,
             link: "/services/coaching",
-            // image: "/src/assets/images/coaching.png"
-            image: "https://www.aplab.fr/wp-content/uploads/go-x/u/ef933635-947b-49aa-8ea6-87b9fa4880db/l0,t390,w1170,h1170/image-640x640.png"
+            image: coaching
         },
         {
             title: "Supports testés & approuvés",
@@ -69,8 +70,7 @@ export const Services = () => {
             cta: "Envoyer tes scripts cauchemardesques",
             icon: FileText,
             link: "/services/support",
-            // image: "/src/assets/images/support.jpg"
-            image: "https://www.aplab.fr/wp-content/uploads/go-x/u/ccb18f32-b8b7-44e7-b835-1bb6cb838ebd/l250,t0,w1500,h1500/image-640x640.jpg"
+            image: support
         }
     ];
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import coachingImg from '../../../assets/images/coaching.png';
 
 export const Coaching = () => {
     const containerVariants = {
@@ -105,8 +106,7 @@ export const Coaching = () => {
                     >
                         <div className="absolute inset-0 bg-linear-to-br from-[#DFA53B]/20 to-[#1E5C8C]/20 z-10" />
                         <img
-                            // src="/src/assets/images/coaching.png"
-                            src="https://www.aplab.fr/wp-content/uploads/go-x/u/ef933635-947b-49aa-8ea6-87b9fa4880db/l0,t390,w1170,h1170/image-640x640.png"
+                            src={coachingImg}
                             alt="Coaching AP LAB"
                             className="w-full h-full object-cover"
                         />

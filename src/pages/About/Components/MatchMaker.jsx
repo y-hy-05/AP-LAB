@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import alexImg from '../../../assets/images/alex.jpg';
 
 export const MatchMaker = () => {
     return (
@@ -85,8 +86,7 @@ export const MatchMaker = () => {
                         <div className="aspect-square rounded-2xl border border-[#2A2A2A] bg-[#1E1E1E] overflow-hidden group hover:border-[#DFA53B] transition-colors duration-300">
                             <div className="absolute inset-0 bg-linear-to-br overflow-hidden from-[#DFA53B]/20 to-[#1E5C8C]/20 z-10" />
                             <img 
-                                // src="/src/assets/images/alex.jpg" 
-                                src="https://www.aplab.fr/wp-content/uploads/go-x/u/fe0d5336-a987-404f-ba85-eec891fa0d3c/l0,t195,w1170,h1170/image-960x960.jpg" 
+                                src={alexImg}
                                 alt="AP LAB Matchmaker"
                                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                             />
