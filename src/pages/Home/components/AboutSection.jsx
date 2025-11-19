@@ -41,7 +41,7 @@ export const AboutSection = () => {
                             "Avant : on harcelait des gens.<br />
                             Maintenant : on comprend les gens."
                         </p>
-                        <span className="text-[#DFA53B] font-semibold text-lg">Alexendra Papasodaro</span>
+                        <span className="text-[#DFA53B] font-semibold text-lg">Alexandra Papasodaro - PDG / Fondatrice</span>
                     </div>
                 </motion.div>
 
